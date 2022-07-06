@@ -250,7 +250,7 @@ hr {
 
 }
 
-.sec-seven-divn p {
+.sec-seven-div p {
     font-size: 20px;
     margin-bottom: 50px;
 }
@@ -313,4 +313,96 @@ hr {
 
 .footer p {
     color: white;
+}
+
+/* Footer ends */
+
+/* extra section styling */
+
+.activity {
+    text-align: center;
+    color: black;
+    background-color: rgb(203, 203, 203);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.activity h1 {
+    font-size: 50px;
+}
+
+.activity-divs {
+    display: flex;
+    color: white;
+}
+
+.activity-block {
+    margin: 0px 30px 0px 30px;
+    height: 200px;
+    width: 350px;
+}
+
+.activity-block h1 {
+    font-size: 50px;
+
+}
+
+.activity-block p {
+    font-size: 25px;
+    font-weight: 700px;
+    margin-bottom: -40px;
+}
+
+#b-one {
+    background-image: url(images/business-4677639_640.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    overflow: hidden;
+    background-color: rgba(49, 48, 48, 0.743);
+    background-blend-mode: multiply;
+}
+
+#b-two {
+    background-image: url(images/coins-912278_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    overflow: hidden;
+    background-color: rgb(49, 48, 48);
+    background-blend-mode: soft-light;
+}
+
+#b-three {
+    background-image: url(images/dollar-3313761_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    overflow: hidden;
+    background-color: rgb(49, 48, 48);
+    background-blend-mode: soft-light;
+}
+
+#b-four {
+    background-image: url(images/competence-2741773_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    overflow: hidden;
+    background-color: rgb(49, 48, 48);
+    background-blend-mode: soft-light;
 }
