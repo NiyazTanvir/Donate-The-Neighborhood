@@ -3,6 +3,7 @@ body {
     margin: 0px;
 }
 
+/* Hero section start */
 .hero-sec {
     text-align: center;
     color: white;
@@ -13,6 +14,7 @@ body {
     background-size: cover;
     height: 500px;
     padding: 100px 500px 100px 500px;
+    margin-bottom: 100px;
 
 }
 
@@ -20,6 +22,13 @@ body {
     padding-left: 150px;
     padding-right: 150px;
     margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.other-amount {
+    font-size: 20;
+    text-align: center;
 }
 
 .hero-heading {
@@ -30,9 +39,278 @@ body {
 .buttons {
     text-decoration: none;
     background-color: tomato;
-    padding: 15px;
+    padding: 20px;
     color: white;
     font-weight: 900;
     font-size: 18px;
     border-radius: 5px;
+}
+
+/* Hero section ends */
+
+/* Section two styling start */
+
+.section-two {
+    text-align: center;
+    margin-bottom: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.sec-two-heading {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.donation-amount {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    width: 50%;
+}
+
+.taka {
+
+    background-color: rgba(246, 246, 246, 0.791);
+    margin: 10px;
+    padding: 20px 25px 20px 25px;
+    border-radius: 5px;
+}
+
+.taka-amount {
+    font-size: 40px;
+    font-weight: bold;
+    color: dimgray;
+}
+
+#red-box {
+    border: 3px solid tomato;
+    background-color: rgb(240, 223, 223);
+}
+
+#red-text {
+    color: tomato;
+}
+
+.small-para {
+
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+    color: rgba(246, 244, 244, 0.966);
+    margin-bottom: 60px;
+}
+
+.btn-two {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+/* Section two styling ends */
+
+/* Section three styling start */
+
+.sec-three {
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: -50px;
+}
+
+/* Section three styling ends */
+
+/* Section four styling start */
+
+.sec-four-para {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sec-four {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+
+}
+
+.sec-four-div {
+    text-align: center;
+    margin: 20px 15px 20px 15px;
+    padding: 80px 30px 80px 30px;
+}
+
+#bg-color-one {
+    background-color: azure;
+}
+
+#bg-color-two {
+    background-color: mistyrose;
+}
+
+#bg-color-three {
+    background-color: bisque;
+}
+
+/* Section four styling ends */
+
+/* Section five styling starts */
+
+.sec-five {
+    height: 300px;
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 500px;
+
+}
+
+.div-five {
+    padding: 50px;
+}
+
+.div-five h1 {
+    font-size: 50px;
+    font-weight: 700px;
+
+}
+
+.div-five p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.div-five-img {
+
+    padding: 20px 20px 20px 80px;
+    margin-left: 30px;
+    size: 20px;
+}
+
+/* Section five styling ends */
+
+/* Section six styling starts */
+
+.sec-six {
+    height: 300px;
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 350px;
+
+}
+
+.div-six {
+    width: 50%;
+    padding: 50px;
+}
+
+.div-six h1 {
+    font-size: 50px;
+    font-weight: 700px;
+
+}
+
+.div-six p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.div-six-img {
+
+
+    padding: 20px 20px 20px 80px;
+    margin-left: 30px;
+
+}
+
+/* Section six styling ends */
+
+/* Section seven styling start */
+
+.sec-seven {
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 100px;
+}
+
+.sec-seven-div h1 {
+    font-size: 50px;
+    font-weight: 700px;
+
+}
+
+.sec-seven-divn p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.sec-seven-div {
+    margin-bottom: 50px;
+}
+
+/* Email subscription form */
+
+.email-form {
+    display: flex;
+    height: 200px;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail-box input {
+    width: 220px;
+    height: 30px;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(217, 217, 217);
+    color: black;
+    margin: 0px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.mail-box button {
+
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 16px 20px;
+    margin-left: -5px;
+    border: none;
+    font-size: 15px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* Email subscription form */
+
+/* Section seven styling ends */
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer h2 {
+    color: red;
+    font-family: 'Lobster', cursive;
+    font-weight: 20;
+}
+
+.footer p {
+    color: white;
 }
