@@ -247,7 +247,6 @@ hr {
 .sec-seven-div h1 {
     font-size: 50px;
     font-weight: 700px;
-
 }
 
 .sec-seven-div p {
@@ -262,6 +261,8 @@ hr {
 /* Email subscription form */
 
 .email-form {
+    width: 1000px;
+    margin-left: -160px;
     display: flex;
     height: 200px;
     background-color: antiquewhite;
@@ -270,7 +271,7 @@ hr {
 }
 
 .mail-box input {
-    width: 220px;
+    width: 250px;
     height: 30px;
     font-size: 15px;
     padding: 10px 20px;
@@ -295,29 +296,10 @@ hr {
 
 /* Email subscription form */
 
+
 /* Section seven styling ends */
 
-/* Footer */
-.footer {
-    text-align: center;
-    background-color: black;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.footer h2 {
-    color: red;
-    font-family: 'Lobster', cursive;
-    font-weight: 20;
-}
-
-.footer p {
-    color: white;
-}
-
-/* Footer ends */
-
-/* extra section styling */
+/* extra section styling starts */
 
 .activity {
     text-align: center;
@@ -406,3 +388,25 @@ hr {
     background-color: rgb(49, 48, 48);
     background-blend-mode: soft-light;
 }
+
+/* extra section styling ends */
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer h2 {
+    color: red;
+    font-family: 'Lobster', cursive;
+    font-weight: 20;
+}
+
+.footer p {
+    color: white;
+}
+
+/* Footer ends */
