@@ -169,7 +169,7 @@ hr {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 500px;
+    margin-bottom: 400px;
 
 }
 
@@ -304,11 +304,14 @@ hr {
 .activity {
     text-align: center;
     color: black;
-    background-color: rgb(203, 203, 203);
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    background-color: rgb(234, 231, 231);
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 20px rgb(168, 165, 165);
 }
 
 .activity h1 {
@@ -324,6 +327,8 @@ hr {
     margin: 0px 30px 0px 30px;
     height: 200px;
     width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px dimgray;
 }
 
 .activity-block h1 {
@@ -377,7 +382,7 @@ hr {
 }
 
 #b-four {
-    background-image: url(images/competence-2741773_640.jpg);
+    background-image: url(images/heart-6348435_640.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
